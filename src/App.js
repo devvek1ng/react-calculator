@@ -40,14 +40,14 @@ function Calculate(firstNumber, secondNumber, operation) {
       };
 
       addDecimal = val => {
-        // only add decimal if there is no current decimal point present in the input area
+        
         if (this.state.input.indexOf(".") === -1) {
           this.setState({input: this.state.input + val});
         }
       };
 
       addZeroToInput = val => {
-        // if this.state.input is not empty then add zero
+        
         if (this.state.input !== "") {
           this.setState({input: this.state.input + val});
         }
