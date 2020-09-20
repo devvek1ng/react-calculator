@@ -1,16 +1,37 @@
 .input {
-  display: flex;
-  height: 4em;
-  flex: 1;
-  background-color: #000;
-  outline: 1px solid #888;
-  color: #fff;
-  justify-content: flex-end;
-  padding: 0.5em;
-  font-weight: bold;
-  font-size: 1.4em;
-  align-items: center;
-  transition-duration: 0.4s;
+    display: flex;
+    height: 4em;
+    flex: 1;
+    background-color: inherit;
+    outline: 1px solid #888;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+    justify-content: flex-end;
+    padding: 0.5em;
+    font-weight: bold;
+    font-size: 1.4em;
+    align-items: center;
+    transition-duration: 0.4s;
+}
+
+.green_field {
+    background-color: #004b12;
+}
+
+.red_field {
+    background-color: #700100;
+}
+
+.white_field {
+    background-color: #f4fff3;
+}
+
+.classic_field {
+    background-color: #000;
+}
+
+.yellow_field {
+    background-color: gold;
 }
 
 
